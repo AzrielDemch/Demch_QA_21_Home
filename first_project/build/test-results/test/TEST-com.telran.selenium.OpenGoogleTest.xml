@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.selenium.OpenGoogleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-21T16:31:29" hostname="DESKTOP-2U6TAT8" time="12.594">
+<testsuite name="com.telran.selenium.OpenGoogleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-24T13:12:48" hostname="DESKTOP-2U6TAT8" time="12.597">
   <properties/>
-  <testcase name="getUp1" classname="com.telran.selenium.OpenGoogleTest" time="12.594"/>
+  <testcase name="search1" classname="com.telran.selenium.OpenGoogleTest" time="12.597"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 29753
+  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 12763
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-авг 21, 2019 7:31:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг 24, 2019 4:12:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
