@@ -11,7 +11,6 @@
             <option value="$PROJECT_DIR$/first_project" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>

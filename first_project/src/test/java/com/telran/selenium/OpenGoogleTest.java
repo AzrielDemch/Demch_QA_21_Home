@@ -1,29 +1,31 @@
 package com.telran.selenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class OpenGoogleTest {
+import java.util.concurrent.TimeUnit;
 
-    WebDriver driver;
-    @Test
-    public void search1() throws InterruptedException {
-        driver = new ChromeDriver();
+public class OpenGoogleTest extends TestBase{
 
-        driver.get("https://ru.wikipedia.org");
+ /*   @Test
+    public void searchCity() throws InterruptedException {
         driver.findElement(By.name("search")).click();
         driver.findElement(By.name("search")).clear();
-        driver.findElement(By.name("search")).sendKeys("Munich");
-        driver.findElement(By.name("go")).click();
-
-        //driver.navigate().to();
+        driver.findElement(By.name("search")).sendKeys("Munich"+ Keys.ENTER);
+        //driver.findElement(By.name("go")).click();
 
         Thread.sleep(7000);
-        driver.quit();
-    }
+    } */
 
-
+   /*@Test
+    public void clickOnButton() throws InterruptedException {
+       new Actions(driver).moveToElement(driver.findElement(By.name("btnI"))).click().perform();
+    }*/
 
 }
