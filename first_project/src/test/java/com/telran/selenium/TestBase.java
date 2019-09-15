@@ -1,28 +1,21 @@
 package com.telran.selenium;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-
-import java.util.concurrent.TimeUnit;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 public class TestBase {
 
+    protected static ApplicationManager app = new ApplicationManager();
 
-    WebDriver wiki;
-
-    @BeforeMethod
-     public void search1() {
-         wiki = new ChromeDriver();
-        // driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-         wiki.get("https://ru.wikipedia.org");
-         //driver.navigate().to();
-     }
-
-    @AfterMethod
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(10000);
-        wiki.quit();
+    @BeforeClass
+    public void setUp(){
+        app.init();
     }
+
+    @AfterClass
+    public void tearDown() throws InterruptedException {
+        app.stop();
+    }
+
+
 }
