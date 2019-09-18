@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.selenium.TestSearchPerson" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-15T17:47:37" hostname="DESKTOP-2U6TAT8" time="6.483">
+<testsuite name="com.telran.selenium.TestSearchPerson" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-18T18:05:15" hostname="DESKTOP-2U6TAT8" time="6.766">
   <properties/>
-  <testcase name="searchPerson" classname="com.telran.selenium.TestSearchPerson" time="6.483"/>
+  <testcase name="searchPerson" classname="com.telran.selenium.TestSearchPerson" time="6.766"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 5395
+  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 21837
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-сен 15, 2019 8:47:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1568829901.285][WARNING]: Timed out connecting to Chrome, retrying...
+сен 18, 2019 9:05:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+[1568829905.364][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
 </testsuite>

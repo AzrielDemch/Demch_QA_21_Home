@@ -8,24 +8,25 @@ public class TestSearchPerson extends TestBase{
 
     @BeforeClass
     public void isEnsurePreconditionsLogin(){
-        if(app.isMainPaigeButton()){
-            app.login("Bender Rodrigez 00","1S234567");
+        if(app.getPersonHelper().isMainPaigeButton()){
+            app.sessionHelper.login("Bender Rodrigez 00","1S234567");
         }
     }
 
     @BeforeMethod
     public void isUserInThereHomePage(){
-        if(app.isSearchButtonInHomePage()){
-            app.returnToHomePage();
+        if(app.getPersonHelper().isSearchButtonInHomePage()){
+            app.getPersonHelper().returnToHomePage();
         }
     }
 
     @Test
     public void searchPerson(){
-    app.typeNameOfPersonInField("Donald Trump");
-    app.clickOnFamilyPerson();
-    app.clickOnPictureTrumpTower();
-    app.returnToHomePage();
+    app.getPersonHelper().typeNameOfPersonInField("Donald Trump");
+    app.getPersonHelper().clickOnFamilyPerson();
+    app.getPersonHelper().clickOnPictureTrumpTower();
+    app.getPersonHelper().closePictureButton();
+    app.getPersonHelper().returnToHomePage();
 
 }
 
