@@ -1,9 +1,9 @@
-package com.telran.selenium;
+package com.telran.selenium.manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class PersonHelper extends HelperBase{
+public class PersonHelper extends HelperBase {
     public PersonHelper(WebDriver wiki) {
         super(wiki);
     }

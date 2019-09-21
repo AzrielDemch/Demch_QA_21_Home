@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.selenium.tests.TestSearchCity" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-21T18:04:09" hostname="DESKTOP-2U6TAT8" time="14.199">
+  <properties/>
+  <testcase name="searchCity" classname="com.telran.selenium.tests.TestSearchCity" time="14.199"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 17248
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1569089036.088][WARNING]: Timed out connecting to Chrome, retrying...
+сен 21, 2019 9:03:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1569089040.150][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+</testsuite>

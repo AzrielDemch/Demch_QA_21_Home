@@ -3,8 +3,8 @@
 <suite name="Suite1" verbose="1" >
     <test name="RegressionWikipedia">
         <classes>
-            <class name="com.telran.selenium.TestSearchCity"/>
-            <class name="com.telran.selenium.TestSearchPerson"/>
+            <class name="com.telran.selenium.tests.TestSearchCity"/>
+            <class name="com.telran.selenium.tests.TestSearchPerson"/>
         </classes>
     </test>
 </suite>

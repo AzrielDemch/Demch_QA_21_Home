@@ -1,4 +1,4 @@
-package com.telran.selenium;
+package com.telran.selenium.tests;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -9,7 +9,7 @@ public class TestSearchPerson extends TestBase{
     @BeforeClass
     public void isEnsurePreconditionsLogin(){
         if(app.getPersonHelper().isMainPaigeButton()){
-            app.sessionHelper.login("Bender Rodrigez 00","1S234567");
+            app.getSessionHelper().login("Bender Rodrigez 00","1S234567");
         }
     }
 
