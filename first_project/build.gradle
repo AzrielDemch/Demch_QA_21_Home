@@ -19,7 +19,4 @@ test{
     useTestNG{
         suites'src/test/resources/testng.xml'
     }
-    if(project.property("browser")){
-        systemProperty"browser","${browser}"
-   }
 }
