@@ -29,6 +29,7 @@ public class PersonHelper extends HelperBase {
         click(By.cssSelector("[type='search']"));
         type(By.cssSelector("[type='search']"),text);
         click(By.cssSelector("[name='go']"));
+
     }
 
     public boolean isMainPaigeButton() {
