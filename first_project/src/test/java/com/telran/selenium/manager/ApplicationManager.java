@@ -29,6 +29,7 @@ public class ApplicationManager {
         wiki.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wiki.manage().window().maximize();
 
+
         cityHelper = new CityHelper(wiki);
         personHelper = new PersonHelper(wiki);
         sessionHelper = new SessionHelper(wiki);
