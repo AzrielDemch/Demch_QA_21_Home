@@ -1,0 +1,4 @@
+16626 [main] INFO  com.telran.selenium.tests.TestBase - Start test - searchCity
+27113 [main] INFO  com.telran.selenium.tests.TestBase - End test - searchCity
+43716 [main] INFO  com.telran.selenium.tests.TestBase - Start test - searchPerson
+49871 [main] INFO  com.telran.selenium.tests.TestBase - End test - searchPerson

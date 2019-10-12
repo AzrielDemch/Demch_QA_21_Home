@@ -1,0 +1,4 @@
+18:58:10.794 [main] INFO  com.telran.selenium.tests.TestBase - Start test - searchCity
+18:58:18.961 [main] INFO  com.telran.selenium.tests.TestBase - End test - searchCity
+18:58:41.010 [main] INFO  com.telran.selenium.tests.TestBase - Start test - searchPerson
+18:58:47.782 [main] INFO  com.telran.selenium.tests.TestBase - End test - searchPerson

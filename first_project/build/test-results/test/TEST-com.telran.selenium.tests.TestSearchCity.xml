@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.selenium.tests.TestSearchCity" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-09T15:02:23" hostname="DESKTOP-2U6TAT8" time="10.715">
+<testsuite name="com.telran.selenium.tests.TestSearchCity" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-11T15:06:17" hostname="DESKTOP-2U6TAT8" time="10.703">
   <properties/>
-  <testcase name="searchCity" classname="com.telran.selenium.tests.TestSearchCity" time="10.715"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 22963
+  <testcase name="searchCity" classname="com.telran.selenium.tests.TestSearchCity" time="10.703"/>
+  <system-out><![CDATA[18:06:17.874 [Test worker] INFO  c.t.selenium.tests.TestSearchCity - Start test - TestSearchCity
+18:06:17.877 [Test worker] INFO  c.t.selenium.tests.TestSearchCity - ___________________________
+18:06:28.587 [Test worker] INFO  c.t.selenium.tests.TestSearchCity - End test - TestSearchCity
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 27952
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1570633330.056][WARNING]: Timed out connecting to Chrome, retrying...
-окт 09, 2019 6:02:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1570806363.636][WARNING]: Timed out connecting to Chrome, retrying...
+окт 11, 2019 6:06:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1570633334.296][WARNING]: Timed out connecting to Chrome, retrying...
+[1570806367.711][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
 </testsuite>
